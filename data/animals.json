@@ -130,6 +130,18 @@
         "active"
       ],
       "id": "12"
+    },
+    {
+      "name": "Mary",
+      "species": "Dog",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "zany",
+        "anxious",
+        "loving"
+      ],
+      "id": "13"
     }
   ]
 }
