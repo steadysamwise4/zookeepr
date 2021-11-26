@@ -65,6 +65,18 @@
       "age": 56,
       "favoriteAnimal": "rabbit",
       "id": "10"
+    },
+    {
+      "name": "Terry",
+      "age": 13,
+      "favoriteAnimal": "rat",
+      "id": "11"
+    },
+    {
+      "name": "Ed",
+      "age": 36,
+      "favoriteAnimal": "turtle",
+      "id": "12"
     }
   ]
 }

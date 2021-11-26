@@ -71,9 +71,14 @@ const handleZookeeperFormSubmit = event => {
       return response.json();
     }
     alert('Error: ' + response.statusText);
+    return;
   })
   .then(postResponse => {
     console.log(postResponse);
+    if (postResponse === undefined) {
+      alert('Make sure to enter all data correctly!');
+      return;
+    }
     alert('Thank you for adding a zookeeper!');
   });
 };
